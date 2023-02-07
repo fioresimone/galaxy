@@ -5,7 +5,7 @@ import { BufferAttribute } from "three";
 import Dyson from "./Dyson";
 import url from "../../Assets/star.png";
 
-import allData from "./final1.json";
+import allData from "./data.json";
 import { useTexture } from "@react-three/drei";
 import { useActive, useControls } from "../../store";
 

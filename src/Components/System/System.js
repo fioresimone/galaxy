@@ -11,7 +11,7 @@ import Star from "./Star";
 import PlanetsData from "./PlanetsData";
 import StarData from "./StarData";
 
-import data from "../Stars/final1.json";
+import data from "../Stars/data.json";
 
 export default function System() {
   const navigate = useNavigate();
@@ -41,7 +41,6 @@ export default function System() {
           <meshBasicMaterial color={system.color} />
         </Sphere>
         <Star />
-        <Perf style={{ zIndex: "999999999" }} />
 
         {planets &&
           planets.map((el, i) => (

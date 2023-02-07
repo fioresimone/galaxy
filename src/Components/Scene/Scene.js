@@ -32,7 +32,6 @@ export default function Scene() {
           <Camera />
           <Env />
 
-          <Perf style={{ zIndex: "999999999" }} />
           <Controls />
 
           <Sol />
