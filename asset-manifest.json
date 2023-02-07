@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/galaxy/static/css/main.7ac7b23c.css",
+    "main.js": "/galaxy/static/js/main.2d3e0719.js",
+    "static/js/787.fa3061f1.chunk.js": "/galaxy/static/js/787.fa3061f1.chunk.js",
+    "static/media/ambient.mp3": "/galaxy/static/media/ambient.71410944b862264cae79.mp3",
+    "static/media/1.png": "/galaxy/static/media/1.98d0710b72f80730e6ec.png",
+    "static/media/5.png": "/galaxy/static/media/5.128ab23d847c14e1f8dc.png",
+    "static/media/3.png": "/galaxy/static/media/3.d4f7c8cc754858f04332.png",
+    "static/media/flare.png": "/galaxy/static/media/flare.201d8e1fbba336aba61b.png",
+    "static/media/6.png": "/galaxy/static/media/6.dcbd94591c518b1a0d1a.png",
+    "static/media/2.png": "/galaxy/static/media/2.a2b67eb67835c3cd228e.png",
+    "static/media/4.png": "/galaxy/static/media/4.c4c0a418701c729cafcf.png",
+    "static/media/bottom.png": "/galaxy/static/media/bottom.d47392c247d043a33565.png",
+    "static/media/right.png": "/galaxy/static/media/right.96ce15c91cc3a9f9e23c.png",
+    "static/media/top.png": "/galaxy/static/media/top.e23bc44709ae65ebe7c8.png",
+    "static/media/back.png": "/galaxy/static/media/back.54a3ba0f001a11fcec25.png",
+    "static/media/front.png": "/galaxy/static/media/front.bc27204f3d0273e9b7fc.png",
+    "static/media/left.png": "/galaxy/static/media/left.ae1d9773234a349c24ec.png",
+    "static/media/border-right.png": "/galaxy/static/media/border-right.860a299fb5faffdedfec.png",
+    "static/media/border-left.png": "/galaxy/static/media/border-left.66c677554e3ed9ab5364.png",
+    "static/media/crosshair.png": "/galaxy/static/media/crosshair.4cf1fe1aae24af4d8db5.png",
+    "static/media/scope.png": "/galaxy/static/media/scope.3b9f0c0a6a8c58e498f4.png",
+    "static/media/sol.png": "/galaxy/static/media/sol.aa85853151d833526f1d.png",
+    "static/media/mark.png": "/galaxy/static/media/mark.da3db6a2db246a6d2660.png",
+    "index.html": "/galaxy/index.html",
+    "main.7ac7b23c.css.map": "/galaxy/static/css/main.7ac7b23c.css.map",
+    "main.2d3e0719.js.map": "/galaxy/static/js/main.2d3e0719.js.map",
+    "787.fa3061f1.chunk.js.map": "/galaxy/static/js/787.fa3061f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ac7b23c.css",
+    "static/js/main.2d3e0719.js"
+  ]
+}
