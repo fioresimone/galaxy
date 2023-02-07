@@ -1,0 +1,28 @@
+.loader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  left: -15px;
+  top: -15px;
+  border-radius: 50%;
+  background: url("./sol.png");
+  background-size: contain;
+  animation-name: sol;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+@keyframes sol {
+  from {
+    box-shadow: 0 0 12px 0 rgb(0 255 255 / 100%),
+      0px 0px 5px 1px rgb(12 145 255 / 100%);
+  }
+  to {
+    box-shadow: 0 0 0px 0 rgb(0 255 255 / 100%),
+      0px 0px 5px 1px rgb(12 145 255 / 100%);
+  }
+}

@@ -1,13 +1,157 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Electrolize", sans-serif;
+  background: #000;
+  perspective: 500px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  outline: none !important;
+  color: white;
 }
+
+.mark {
+  position: relative;
+  left: -15px;
+  top: -15px;
+  width: 30px;
+  height: 30px;
+  background: url("./Assets/mark.png");
+  background-size: contain;
+}
+
+.mark-name {
+  width: 120px;
+  position: relative;
+  left: -60px;
+  top: -16px;
+  font-size: 14px;
+  text-align: center;
+  user-select: none;
+}
+
+.jumping {
+  animation: jumping 4s linear infinite;
+}
+
+@keyframes jumping {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(190deg);
+  }
+  50% {
+    transform: rotate(120deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.star {
+  width: 120px;
+  height: 120px;
+  background: url("./Assets/flare.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  left: -60px;
+  top: -60px;
+  
+}
+
+.marker {
+  position: absolute;
+  left: -18px;
+  top: -18px;
+  content: "";
+  width: 48px;
+  height: 48px;
+  background: url("../src/Assets/scope.png");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.marker-name {
+  width: 120px;
+  position: relative;
+  right: -35px;
+  bottom: -8px;
+  font-size: 14px;
+  user-select: none;
+}
+.planet-data-wrapper {
+  width: 240px;
+  margin-bottom: 12px;
+  background: rgba(19, 73, 108,0.2);
+  border-width: 5px;
+  border-style: solid;
+  border-image: url("./Assets/border-blue.png") 10;  
+  transform: rotateY(-15deg);
+  transform-style: preserve-3d;
+  transition: 1s;
+  user-select: none;
+}
+
+.planet-data-wrapper:hover {
+  transform: rotateY(0deg) translateX(-20px) translateZ(40px);
+  background: rgb(19, 73, 108, 0.8)
+
+}
+
+.planet-data-wrapper:hover .planet-name{
+  filter: drop-shadow(0px 0px 2px cyan);
+}
+
+.planet-data {
+  overflow-y: hidden;
+  transition: 1s;
+}
+
+
+
+.star-data-wrapper {
+  width: 240px;
+  margin-bottom: 12px;
+  background: rgba(19, 73, 108,0.2);
+  border-width: 5px;
+  border-style: solid;
+  border-image: url("./Assets/border-blue.png") 10;  
+  transform: rotateY(15deg);
+  transform-style: preserve-3d;
+  transition: 1s;
+  user-select: none;
+}
+
+.star-data-wrapper:hover {
+  transform: rotateY(0deg) translateX(20px) translateZ(40px);
+  background: rgb(19, 73, 108, 0.8)
+
+}
+
+.star-data-wrapper:hover .star-name{
+  filter: drop-shadow(0px 0px 2px cyan);
+}
+
+.star-data {
+  overflow-y: hidden;
+  transition: 1s;
+}
+
